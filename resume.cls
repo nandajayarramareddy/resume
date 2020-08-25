@@ -27,7 +27,7 @@
 \usepackage{ifthen} % Required for ifthenelse statements
 
 \pagestyle{empty} % Suppress page numbers
-
+ \usepackage{hyperref}
 %----------------------------------------------------------------------------------------
 %	HEADINGS COMMANDS: Commands for printing name and address
 %----------------------------------------------------------------------------------------
