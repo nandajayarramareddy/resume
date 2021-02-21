@@ -1,0 +1,204 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    #1 \vspace{-2pt}
+  }
+}
+
+\newcommand{\techStack}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeCertificates}[2]{
+  \item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      #1 & #2
+    \end{tabular*}\vspace{-1pt}
+}
+
+\newcommand{\resumeSubheadingContinue}[2]{
+  \vspace{-1pt}
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheadingTechStack}[1]{
+  \vspace{-1pt}
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small#1}
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  DOCUMENT STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://nandaja.me/}{\huge Nandaja Yarramareddy}} & Email : \href{mailto:yarramareddynandaja@gmail.com}{yarramareddynandaja@gmail.com}\\
+  \href{https://nandaja.me/}{\textit{https://nandaja.me}} & Mobile : +91-8919544901 \\
+\end{tabular*}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {INFOSYS LIMITED}{Hyderabad, India}
+      {Senior Systems Engineer}{}
+      \resumeItemListStart
+        \resumeItem 
+          {2.5 years of experience in the development of responsive web applications for Retail and Energy domains.}
+        \resumeItem 
+          {Developed, enhanced, and migrated multiple web-based applications on the .NET framework with technical expertise in ASP.NET MVC, Angular4, React JS, Web API, Oracle, Microsoft SQL Server, and JavaScript.}
+      \resumeItemListEnd
+        
+    % \resumeSubheadingContinue
+    \resumeItemListStart
+        \resumeItem{Gas leak Survey System (GLSS)}
+      \resumeItemListStart
+        \techStack{Technologies}{Angular4, ASP.NET, Web API, C\#, Oracle, SSIS, Bootstrap, JQuery.}
+        \resumeItem
+          {GLSS is a web application used by Southern Company Gas for surveillance and maintenance of gas delivery systems across multiple states in the USA.}
+        \resumeItem
+          {Developed a responsive UI, implemented packages and stored procedures for data retrieval and updating data, Web APIs for business logic.}
+        \resumeItem
+          {Implemented the testing suite including the Unit tests and Integration tests and delivered within the specified timelines.}
+        \resumeItem
+          {Deployed in all environments, and provided support during and after deployment.}
+      \resumeItemListEnd
+    \resumeItemListEnd
+    \resumeItemListStart
+        \resumeItem{Win2K3 Project}
+      \resumeItemListStart
+        \techStack{Technologies}{ASP.NET, JQuery and HTML.}
+        \resumeItem
+          {The purpose of the Win2K3 project was to migrate Windows server applications to a newer version.}
+        \resumeItem
+          {Migrated various applications to Windows Server 2012 from Windows server 2003.}
+        \resumeItem
+          {Involved in migrating the Framework related changes from .NET 3.5 to .NET 4.5.1.}
+        \resumeItem
+          {Worked on the web applications to make them compatible with latest versions of all browsers.}
+      \resumeItemListEnd
+    \resumeItemListEnd
+    \resumeItemListStart
+        \resumeItem{Microsoft Excel Automation}
+      \resumeItemListStart
+        \techStack{Technologies}{ADO.NET}
+        \resumeItem
+          {The purpose of this automation was to reduce a significant time of company resources working on Microsoft Excel sheets.}
+        \resumeItem
+          {Created an Automation Application for Microsoft Excel by using Microsoft C\# .NET.}
+        \resumeItem
+          {This application is used to merge and modify Excel workbooks automatically in real-time.}
+      \resumeItemListEnd
+    \resumeItemListEnd
+    \resumeSubheading
+      {L.G POLYMERS INDIA Pvt. Ltd.,}{Vishakapatnam, India}
+      {Intern}{May 2015}
+      \resumeItemListStart
+        \resumeItem
+          {Observed different operations performed in the manufacture of polystyrene.}
+        \resumeItem
+          {Designed Shell and tube heat exchanger for a specified flow conditions }
+       
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Sri Venkateswara University college of Engineering}{Tirupati, India}
+    {Bachelor of Technology in Chemical Engineering;  GPA: 7.2/10}{Sept 2012 -- May 2016}
+\resumeSubHeadingListEnd
+
+
+% % --------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+  \techStack
+    {Languages} { C\#, JavaScript, SQL, Python, HTML, CSS, TypeScript}
+  \techStack
+    {Frameworks} {ReactJS, Bootstrap,ASP.NET Core, MVC, ASP.NET Web API, AngularJS,  Material UI}
+  \techStack
+    {Databases} { MS SQL Server, Oracle, SSIS}
+  \techStack
+    {VCS} {Git, MS Team foundation server}
+ \resumeSubHeadingListEnd
+
+%-----------Projects-----------------
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeItem
+    {Web Portfolio - \href{https://nandaja.me/}{\textit{https://nandaja.me}}}
+    \resumeItemListStart
+    \resumeItem
+    {Designed and created my web porfolio}
+    \resumeItemListEnd
+    \resumeItem{Other Projects - \href{https://github.com/ynand}{\textit{https://github.com/ynand}}}
+\resumeSubHeadingListEnd
+\end{document}
